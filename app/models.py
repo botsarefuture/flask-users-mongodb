@@ -1,6 +1,7 @@
 """
 Module to contain objects for the app.
 """
+
 from pymongo import MongoClient
 from werkzeug.security import generate_password_hash, check_password_hash
 from config import Config
